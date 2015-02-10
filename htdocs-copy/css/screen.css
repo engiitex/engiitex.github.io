@@ -1,0 +1,84 @@
+html {
+	height: 100%;
+	}
+
+body {
+background-image: url('../images/engineering.png');
+background-repeat: no-repeat;
+background-size: 100%;
+background-attachment: fixed;
+	/*background-attachment: fixed;*/
+	/*background-color: lightgray;*/
+	min-height: 100%;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #333;
+	margin: 0px;
+	}
+
+div#nav {
+width: 100%;
+float: left;
+list-style: none;
+background-color: #bf0000;
+height: 60px;
+}
+.nav ul{
+margin: 0;
+padding: 0;
+}
+.nav li {
+display: inline;
+min-width: 150%;
+text-align: center;
+}
+
+.nav li a {
+color: white;
+padding: 21px 15px;
+text-decoration: none;
+font-weight: bold;
+}
+
+.nav li a:hover {
+color: lightgray;
+background-color: #d90000;
+}
+
+div#bodywrapper {
+margin-left: 0px;
+text-align: left;
+min-height: 1000px;
+box-shadow: 3px 3px 15px #999;
+}
+
+div#content-wrapper {
+max-width: 800px;
+margin-left: 100px;
+background-color: #fff;
+opacity: 0.9;
+}
+
+div#text-wrapper {
+padding-left: 140px;
+}
+h2 {
+margin-bottom: 0px;
+font-style: italic;
+font-size: 1.5em;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: bold;
+	margin-bottom: 50px;
+	}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    color: darkgray;
+	}
