@@ -1,0 +1,143 @@
+html {
+height: 100%;
+}
+
+body {
+background-image: url('../images/engineering.png');
+background-repeat: no-repeat;
+background-size: 100%;
+background-attachment: fixed;
+min-height: 100%;
+margin: 0px;
+}
+
+p, ul, ol, li, h1, h2, h4 {
+font-family: Helvetica, Arial, sans-serif;
+color: #333;
+}
+
+
+h3 {
+font-family: Helvetica, Arial, sans-serif;
+font-style: bold;
+font-size: 1.5em;
+text-decoration:underline;
+color: #333;
+}
+
+h4 {
+font-size: 1.2em;
+margin-bottom: -10px;
+}
+
+li {
+line-height: 180%;
+}
+p {
+line-height: 150%;
+}
+
+div#header {
+width: 100%;
+padding-top: 40px;
+margin: 0;
+height: 120px;
+background-color: #fff;
+/* margin-top: 0; */
+/* margin-bottom: -50px; */
+}
+
+div#logo {
+margin-left: 95px;
+}
+
+div#content-wrapper {
+max-width: 800px;
+min-height: 3000px;
+margin-left: 100px;
+background-color: #fff;
+opacity: 0.9;
+margin-top: 48px;
+box-shadow: 3px 3px 0px #999;
+}
+
+div#text-wrapper {
+margin-left: 40px;
+}
+
+div#text-wrapper p {
+font-family: Verdana;
+}
+
+div#text-wrapper h1 {
+padding-top: 40px;
+}
+
+div#social {
+margin-left: -80px;
+margin-top: 10px;
+background-color: #333;
+width: 80px;
+position: fixed;
+text-decoration: none;
+}
+
+div#social ul{
+list-style-type: none;
+list-style: none;
+padding-left: 20px;
+}
+
+div#groupnames{
+margin-top: 40px;
+list-style-type: none;
+list-style: none;
+}
+
+div#groupnames ul {
+padding-top: 20px;
+}
+
+div#groupnames li {
+max-width: 300px;
+background-color: #333;
+list-style-type: none;
+list-style-type: none;
+}
+
+div#groupnames li a{
+color: #fff;
+text-decoration: none;
+}
+
+
+
+div#nav {
+width: 100%;
+float: left;
+/* margin: 0 0 0 0; */
+margin-top: 20px;
+list-style: none;
+background-color: #fff;
+height: 60px;
+border-bottom: 6px solid #bf0000;
+}
+div#nav ul{
+padding-left: 85px;
+}
+div#nav li {
+display: inline;
+min-width: 150%;
+}
+
+div#nav li a {
+color: #333;
+padding: 21px 15px;
+text-decoration: none;
+font-weight: bold;
+}
+
+div#nav li a:hover {
+color: lightgray;
+background-color: black;
+}
