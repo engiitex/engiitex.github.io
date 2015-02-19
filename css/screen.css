@@ -55,7 +55,6 @@ div#content-wrapper {
 max-width: 800px;
 min-height: 3000px;
 margin-left: 100px;
-margin-right: -100px;
 background-color: #fff;
 opacity: 0.9;
 margin-top: 48px;
@@ -64,6 +63,7 @@ box-shadow: 3px 3px 0px #999;
 
 div#text-wrapper {
 margin-left: 40px;
+max-width: 720px;
 }
 
 div#text-wrapper p {
