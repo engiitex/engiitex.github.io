@@ -86,7 +86,7 @@
 		?>
     
     
-		<form method="post" action="contact.php">
+		<form method="post" action="./index.html">
 			<label>Your name</label>
 			<input name="name" placeholder="Type Here">
 			<label>Email</label>
