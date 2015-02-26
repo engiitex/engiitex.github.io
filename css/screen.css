@@ -53,6 +53,7 @@ margin-left: 95px;
 
 div#content-wrapper {
 max-width: 800px;
+min-height: 700px;
 padding-bottom: 2em;
 margin-left: 100px;
 background-color: #fff;
