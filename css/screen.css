@@ -95,6 +95,7 @@ padding-left: 20px;
 #slide_container {
 	width: 800px;
 	margin:0 auto;
+	margin-left: -40px;
 	position: relative;
 }
 
@@ -132,12 +133,12 @@ div#slideshow ul#nav li a {
 }
 
 div#slideshow ul#nav li#next a {
-	background: url(images/next.png);
+	background: url(../images/next.png);
 	width: 40px;
 	height: 66px;
 }
 div#slideshow ul#nav li#prev a {
-	background: url(images/prev.png);
+	background: url(../images/prev.png);
 	width: 40px;
 	height: 66px
 }
