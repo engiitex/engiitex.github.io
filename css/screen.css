@@ -90,69 +90,6 @@ list-style: none;
 padding-left: 20px;
 }
 
-/* Rotating Image bar begins! */
-
-#slide_container {
-	width: 800px;
-	margin:0 auto;
-	margin-left: -40px;
-	position: relative;
-}
-
-div#slideshow {
-	width: 800px; 
-	height: 295px;
-	padding: none;
-	overflow: scroll;
-	
-}
-
-div#slideshow ul#nav {
-	display: none;
-	list-style: none;
-	position: relative;
-	top: 110px;
-	z-index:15;
-}
-
-div#slideshow ul#nav li#next {
-	float: right; /*pushes the arrow to the right*/
-	margin: 0 30px 0 0; /*indicates the position of the (developer's) right arrow*/
-}
-
-div#slideshow ul#nav li#prev {
-	float: left; /*pushes the arrow to the left*/
-	margin: 0 0 0 -10px; /*indicates the position of the (developer's) left arrow*/
-}
-
-div#slideshow ul#nav li a {
-	display: block;
-	color: transparent; /*makes the words "Previous" and "Next" transparent */
-	background-color: transparent;
-	
-}
-
-div#slideshow ul#nav li#next a {
-	background: url(../images/next.png);
-	width: 40px;
-	height: 66px;
-}
-div#slideshow ul#nav li#prev a {
-	background: url(../images/prev.png);
-	width: 40px;
-	height: 66px
-}
-
-div#slideshow ul#slides {
-	list-style: none;
-}
-
-div#slideshow ul#slides li {
-	margin: 0 0 20px 0;
-}
-
-/* Rotating Image bar ends */
-
 div#groupnames{
 margin-top: 40px;
 list-style-type: none;
