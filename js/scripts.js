@@ -2,8 +2,8 @@ $(document).ready(function() {
 	$("#slideshow").css("overflow", "hidden");
 	
 	$("ul#slides").cycle({
-		fx: "fade",
-		pause: 3,
+		fx: "scrollLeft",
+		pause: 5,
 		prev: '#prev',
 		next: '#next'
 	});
