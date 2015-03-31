@@ -77,9 +77,11 @@ padding-top: 40px;
 }
 
 div#social_horiz {
-margin-top: 30px;
+width: 100%;
 text-decoration: none;
 margin: 0 auto;
+text-align: center;
+border-top: 6px solid #bf0000;
 }
 
 div#social_horiz ul{
@@ -93,6 +95,7 @@ display: inline;
 min-width: 150%;
 padding-left: 80px;
 }
+
 
 div#social_horiz li a {
 min-width: 300%
